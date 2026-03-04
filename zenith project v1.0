@@ -3,7 +3,7 @@ print(id)
 local Arsenal = 111958650
 if id == Arsenal then
     getgenv().SCRIPT_KEY = "KEYLESS"
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/16c1dc11eebdab7e0137d0ff356361c91ad323e7f322de412a75245700a14d78/download"))()
+    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/8f7443193921e7fa2db9edad8cac7a3f668ba377291d77621158c76a1e8bae98/download"))()
 else
     game.Players.LocalPlayer:Kick("This script does not support this game.")
 end
