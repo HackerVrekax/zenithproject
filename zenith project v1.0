@@ -6,3 +6,4 @@ if id == Arsenal then
 else
     game.Players.LocalPlayer:Kick("This script does not support this game.")
 end
+print(1)
